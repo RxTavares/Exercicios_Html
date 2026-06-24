@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar Cor de Fundo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            margin-top: 50px;
+            /* Adiciona uma transição suave para a cor não mudar de forma brusca */
+            transition: background-color 5s ease; 
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3288a5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Exemplo de JavaScript - Mudar Cor de Fundo</h2>
+    <p>Clique no botão abaixo para deixar a página Verde :</p>
+
+    <button onclick="document.body.style.backgroundColor = 'greenyellow'">Ficar Verde</button>
+
+</body>
+</html>
